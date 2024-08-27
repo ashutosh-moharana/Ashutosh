@@ -1,4 +1,4 @@
- let keys=document.querySelectorAll(".keys");
+ let keys=document.querySelectorAll("button");
 let input=document.querySelector("input");
 let str="";
 
@@ -9,6 +9,7 @@ arr.forEach((b)=>{
             str=eval(str);
             input.value=str;
         }
+        
         else if(e.target.innerText=="DEL"){
             str=str.substring(0,str.length-1);
             input.value=str;
