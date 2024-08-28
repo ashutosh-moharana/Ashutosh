@@ -1,6 +1,8 @@
  let keys=document.querySelectorAll("button");
 let input=document.querySelector("input");
 let str="";
+  
+
 
 let arr=Array.from(keys);
 arr.forEach((b)=>{
